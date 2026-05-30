@@ -378,6 +378,20 @@ Los resultados demuestran que una ruta con menos paradas no necesariamente corre
 
 BFS minimiza el número de conexiones mientras que Dijkstra minimiza la distancia total recorrida.
 
+## 6. CAPTURAS DE LA SALIDA:
+
+### a) Consola ejecutando el programa:
+
+<img width="900" height="101" alt="Captura1" src="https://github.com/user-attachments/assets/f504d3ce-989d-40c2-8635-5310affe7c11" />
+
+### b) Resultado del algoritmo BFS:
+
+<img width="337" height="32" alt="Captura2" src="https://github.com/user-attachments/assets/b8d2da09-a620-4ca5-a5ad-e91e62ce9f90" />
+
+### c) Resultado del algoritmo Dijkstra:
+
+<img width="578" height="38" alt="Captura3" src="https://github.com/user-attachments/assets/4193fc83-2a13-4979-a2b0-7162f76922c4" />
+
 ## 5. CONCLUSIONES
 
 * Se implementó correctamente un grafo mediante listas de adyacencia utilizando Java.
