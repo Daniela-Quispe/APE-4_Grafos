@@ -2,8 +2,6 @@
 
 ### Tema: Implementación de Grafos mediante Listas de Adyacencia y Comparación de los Algoritmos BFS y Dijkstra
 
----
-
 ### Objetivo General
 
 Implementar un grafo utilizando lista de adyacencia para representar dentro del Campus Huachi de la Universidad Técnica de Ambato y comparar los algoritmos BFS y Dijkstra.
