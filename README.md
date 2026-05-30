@@ -1,10 +1,10 @@
 # APE 4 - GRAFOS
 
-Implementación de Grafos mediante Listas de Adyacencia y Comparación de los Algoritmos BFS y Dijkstra
+## Tema: Implementación de Grafos mediante Listas de Adyacencia y Comparación de los Algoritmos BFS y Dijkstra
 
 ---
 
-# 2.1 Objetivos
+# Objetivos
 
 ## Objetivo General
 
@@ -17,81 +17,6 @@ Implementar un grafo utilizando lista de adyacencia para representar dentro del 
 * Implementar y analizar el algoritmo de Dijkstra para calcular la ruta de menor distancia considerando los pesos asociados a las conexiones del grafo y comparar sus resultados con los obtenidos mediante BFS.
 * Comprender el funcionamiento de los grafos y las listas de adyacencia como estructuras de datos para representar conexiones.
 * Comparar la eficiencia y los resultados obtenidos por BFS y Dijkstra, analizando sus ventajas según el criterio de búsqueda utilizado.
-
----
-
-# 2.2 Modalidad
-
-Presencial.
-
----
-
-# 2.3 Tiempo de Duración
-
-**Presenciales:** 8 horas
-
-**No presenciales:** 0 horas
-
----
-
-# 2.4 Instrucciones
-
-* Analizar el problema planteado e identificar las ubicaciones que serán representadas como nodos dentro del grafo del Campus Huachi de la Universidad Técnica de Ambato.
-* Implementar la estructura del grafo utilizando listas de adyacencia para almacenar las conexiones entre los diferentes nodos.
-* Completar los métodos marcados con TODO en el archivo `APE4_Grafos.java`: `agregarNodo()`, `agregarArista()`, `bfs()` y `dijkstra()`.
-* Crear los nodos correspondientes a las ubicaciones definidas en el programa y registrar sus conexiones mediante aristas con pesos asociados.
-* Implementar el algoritmo Breadth First Search (BFS) para encontrar la ruta con el menor número de paradas entre un nodo de origen y un nodo de destino.
-* Implementar el algoritmo de Dijkstra para determinar la ruta de menor distancia considerando los pesos asignados a las aristas.
-* Ejecutar el programa y verificar el correcto funcionamiento de ambos algoritmos.
-* Analizar y comparar los resultados obtenidos por BFS y Dijkstra, identificando las diferencias entre la ruta con menos paradas y la ruta con menor distancia.
-
----
-
-# 2.5 Listado de Equipos, Materiales y Recursos
-
-## Equipos y materiales utilizados
-
-* Inteligencia Artificial.
-* Java.
-* Visual Studio Code.
-* GitHub.
-* Internet.
-* Computador de escritorio o portátil con JDK instalado.
-
-## TAC Utilizadas
-
-* Plataformas educativas.
-* Aplicaciones educativas.
-* Inteligencia Artificial.
-
----
-
-# 2.6 Actividades por Desarrollar
-
-* Analizar la estructura y funcionamiento de los grafos como herramienta para representar rutas y conexiones.
-* Diseñar la representación del Campus Huachi mediante nodos y aristas.
-* Implementar la estructura de datos utilizando listas de adyacencia.
-* Desarrollar el método `agregarNodo()`.
-* Implementar el método `agregarArista()`.
-* Programar el algoritmo BFS.
-* Implementar el algoritmo de Dijkstra.
-* Ejecutar pruebas de funcionamiento.
-* Comparar los resultados obtenidos.
-* Documentar el código mediante comentarios.
-* Generar evidencias de ejecución.
-* Elaborar el informe técnico de la práctica.
-
----
-
-# 2.7 Resultados Obtenidos
-
-## Repositorio GitHub
-
-https://github.com/Daniela-Quispe/APE-4_Grafos
-
-## Tema
-
-**Grafos: Mapa del Campus UTA**
 
 ---
 
