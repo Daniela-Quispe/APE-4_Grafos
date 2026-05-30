@@ -14,8 +14,6 @@ Implementar un grafo utilizando lista de adyacencia para representar dentro del 
 * Comprender el funcionamiento de los grafos y las listas de adyacencia como estructuras de datos para representar conexiones.
 * Comparar la eficiencia y los resultados obtenidos por BFS y Dijkstra, analizando sus ventajas según el criterio de búsqueda utilizado.
 
----
-
 ## 1. INTRODUCCIÓN
 
 Las estructuras de datos constituyen uno de los pilares fundamentales dentro del desarrollo de software, ya que permiten organizar, almacenar y procesar información de manera eficiente. Entre las estructuras más importantes se encuentran los grafos, los cuales son ampliamente utilizados para representar relaciones, conexiones y recorridos entre distintos elementos.
@@ -36,11 +34,9 @@ Cada algoritmo resuelve un problema diferente:
 
 La práctica permite fortalecer conocimientos relacionados con estructuras de datos no lineales, algoritmos de búsqueda, optimización de rutas y aplicación de grafos en problemas reales.
 
----
+## 2. MARCO TEÓRICO
 
-# 2. MARCO TEÓRICO
-
-## Grafos
+### Grafos
 
 Los grafos son estructuras de datos no lineales utilizadas para representar relaciones entre diferentes elementos.
 
@@ -55,11 +51,9 @@ Donde:
 
 En esta práctica los nodos representan ubicaciones del campus y las aristas representan las rutas entre dichas ubicaciones.
 
----
+### Tipos de Grafos
 
-## Tipos de Grafos
-
-### Grafo Dirigido
+#### Grafo Dirigido
 
 Las conexiones poseen una dirección específica.
 
