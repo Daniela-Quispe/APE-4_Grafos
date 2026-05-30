@@ -1,10 +1,8 @@
 # APE 4 - GRAFOS
 
-## Tema: Implementación de Grafos mediante Listas de Adyacencia y Comparación de los Algoritmos BFS y Dijkstra
+### Tema: Implementación de Grafos mediante Listas de Adyacencia y Comparación de los Algoritmos BFS y Dijkstra
 
 ---
-
-# Objetivos
 
 ## Objetivo General
 
