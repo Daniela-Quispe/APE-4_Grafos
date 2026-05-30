@@ -1,4 +1,4 @@
-import java.util.*; // Importar todas las clases de la libreria
+import java.util.*; // Importar todas las clases de la libreria en java
 
 public class APE4_Grafos {
 
