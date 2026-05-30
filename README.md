@@ -408,7 +408,3 @@ BFS minimiza el número de conexiones mientras que Dijkstra minimiza la distanci
 * Implementar interfaces gráficas para visualizar las rutas encontradas.
 * Realizar pruebas con grafos de mayor tamaño para analizar el comportamiento de los algoritmos.
 * Complementar la implementación con otros algoritmos de búsqueda de caminos mínimos.
-
-
-
-[8] Codecademy, “Dijkstra's Shortest Path Algorithm,” [En línea]. Disponible en: https://www.codecademy.com/article/dijkstras-shortest-path-algorithm [Accedido: 30-may-2026].
