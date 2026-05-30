@@ -4,11 +4,11 @@
 
 ---
 
-## Objetivo General
+### Objetivo General
 
 Implementar un grafo utilizando lista de adyacencia para representar dentro del Campus Huachi de la Universidad Técnica de Ambato y comparar los algoritmos BFS y Dijkstra.
 
-## Objetivos Específicos
+### Objetivos Específicos
 
 * Diseñar e implementar un grafo mediante listas de adyacencia en Java para representar las diferentes ubicaciones y rutas existentes dentro del Campus Huachi de la Universidad Técnica de Ambato.
 * Aplicar el algoritmo Breadth First Search (BFS) para determinar rutas con el menor número de paradas o nodos intermedios entre dos ubicaciones del campus.
@@ -18,7 +18,7 @@ Implementar un grafo utilizando lista de adyacencia para representar dentro del 
 
 ---
 
-# 1. INTRODUCCIÓN
+## 1. INTRODUCCIÓN
 
 Las estructuras de datos constituyen uno de los pilares fundamentales dentro del desarrollo de software, ya que permiten organizar, almacenar y procesar información de manera eficiente. Entre las estructuras más importantes se encuentran los grafos, los cuales son ampliamente utilizados para representar relaciones, conexiones y recorridos entre distintos elementos.
 
