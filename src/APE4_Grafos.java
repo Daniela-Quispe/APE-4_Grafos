@@ -82,7 +82,7 @@ public class APE4_Grafos {
             // Agregar el nodo de inicio al camino
             caminoInicial.add(inicio);
 
-            // Agregar camino inicial en la cola
+            // Insertar el camino inicial en la cola
             cola.add(caminoInicial);
 
             // Marcar el nodo inicial como visitado
@@ -99,7 +99,7 @@ public class APE4_Grafos {
 
                 // Verificar si llegamos al destino
                 if (actual.equals(fin)) {
-                    return camino; // Retorna el camino encontrado
+                    return camino; // Retornar la ruta encontrada
                 }
 
                 // Recorrer todos los vecinos del nodo actual
@@ -146,7 +146,7 @@ public class APE4_Grafos {
                             )
                     );
 
-            // Inicializar distancias y recorrer todos los nodos del grafo
+            // Recorrer todos los nodos del grafo
             for (String nodo : nodos.keySet()) {
 
                 // Inicializar cada distancia como infinita
@@ -182,13 +182,13 @@ public class APE4_Grafos {
                                 nuevaDistancia
                         );
 
-                        // Guardar el nodo nterior para reconstruir la ruta
+                        // Guardar el nodo anterior para reconstruir la ruta
                         anteriores.put(
                                 arista.destino,
                                 actual
                         );
 
-                        // Agregar el vecino nuevamente en la cola
+                        // Insertar el vecino actualizado en la cola de prioridad
                         cola.add(arista.destino);
                     }
                 }
@@ -281,5 +281,5 @@ public static void main(String[] args) { // Metodo principal del programa
             grafo.dijkstra("uta", "estadio"); // Ejecutar el algoritmo Dijkstra
 
     grafo.mostrarRuta(rutaDijkstra); // Mostrar la ruta encontrada por Dijkstra
-}
+  }
 }
