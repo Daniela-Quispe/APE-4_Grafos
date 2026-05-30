@@ -61,9 +61,7 @@ Ejemplo:
 
 A → B
 
----
-
-### Grafo No Dirigido
+#### Grafo No Dirigido
 
 Las conexiones pueden recorrerse en ambos sentidos.
 
@@ -73,9 +71,7 @@ A ↔ B
 
 La práctica utiliza un grafo no dirigido.
 
----
-
-### Grafo Ponderado
+#### Grafo Ponderado
 
 Cada conexión posee un peso asociado.
 
@@ -85,9 +81,7 @@ A ----50---- B
 
 Los pesos representan distancias entre ubicaciones.
 
----
-
-## Lista de Adyacencia
+#### Lista de Adyacencia
 
 La lista de adyacencia permite representar un grafo almacenando para cada nodo una lista de sus vecinos.
 
@@ -103,19 +97,17 @@ FISEI:
    Idiomas (40)
 ```
 
-### Ventajas
+##### Ventajas
 
 * Menor consumo de memoria.
 * Mayor eficiencia en grafos dispersos.
 * Facilidad para recorrer vecinos.
 
----
-
-## Algoritmo Breadth First Search (BFS)
+#### Algoritmo Breadth First Search (BFS)
 
 BFS es un algoritmo de búsqueda en anchura que explora los nodos por niveles utilizando una cola FIFO.
 
-### Funcionamiento
+##### Funcionamiento
 
 1. Insertar el nodo inicial en una cola.
 2. Marcarlo como visitado.
@@ -123,21 +115,21 @@ BFS es un algoritmo de búsqueda en anchura que explora los nodos por niveles ut
 4. Insertar vecinos no visitados.
 5. Repetir hasta encontrar el destino.
 
-### Complejidad
+##### Complejidad
 
 O(V + E)
 
-### Característica principal
+##### Característica principal
 
 Encuentra la ruta con menor cantidad de paradas.
 
 ---
 
-## Algoritmo de Dijkstra
+#### Algoritmo de Dijkstra
 
 El algoritmo de Dijkstra permite encontrar la ruta de menor costo o distancia en un grafo ponderado.
 
-### Funcionamiento
+##### Funcionamiento
 
 1. Inicializar todas las distancias en infinito.
 2. Asignar distancia cero al origen.
@@ -145,17 +137,15 @@ El algoritmo de Dijkstra permite encontrar la ruta de menor costo o distancia en
 4. Actualizar las distancias de los vecinos.
 5. Repetir el proceso.
 
-### Complejidad
+##### Complejidad
 
 O((V + E) log V)
 
-### Característica principal
+##### Característica principal
 
 Encuentra la ruta con menor distancia acumulada.
 
----
-
-## Cola (Queue)
+#### Cola (Queue)
 
 Estructura FIFO (First In First Out).
 
@@ -167,17 +157,13 @@ Operaciones:
 
 BFS utiliza una cola para gestionar el recorrido.
 
----
-
-## Cola de Prioridad (Priority Queue)
+#### Cola de Prioridad (Priority Queue)
 
 Permite extraer siempre el elemento con mayor prioridad.
 
 En Dijkstra la prioridad corresponde a la menor distancia acumulada.
 
----
-
-## Aplicaciones de los Grafos
+#### Aplicaciones de los Grafos
 
 * Sistemas GPS.
 * Redes de transporte.
@@ -187,11 +173,9 @@ En Dijkstra la prioridad corresponde a la menor distancia acumulada.
 * Sistemas de recomendación.
 * Optimización de rutas.
 
----
+## 3. DESARROLLO DEL EJERCICIO
 
-# 3. DESARROLLO DEL EJERCICIO
-
-## 3.1 Análisis del Problema
+### 3.1 Análisis del Problema
 
 Se requiere implementar un grafo utilizando listas de adyacencia para representar rutas entre ubicaciones.
 
@@ -202,9 +186,7 @@ Para ello se identificaron:
 * Distancias.
 * Algoritmos de búsqueda.
 
----
-
-## 3.2 Creación de la Clase Nodo
+### 3.2 Creación de la Clase Nodo
 
 ```java
 static class Nodo {
@@ -224,7 +206,7 @@ Representar cada ubicación dentro del grafo.
 
 ---
 
-## 3.3 Creación de la Clase Arista
+### 3.3 Creación de la Clase Arista
 
 ```java
 static class Arista {
@@ -242,9 +224,7 @@ Función:
 
 Representar una conexión entre nodos.
 
----
-
-## 3.4 Creación de la Estructura Grafo
+### 3.4 Creación de la Estructura Grafo
 
 ```java
 Map<String, Nodo> nodos = new HashMap<>();
@@ -256,9 +236,7 @@ Función:
 * Almacenar nodos.
 * Almacenar conexiones.
 
----
-
-## 3.5 Implementación de agregarNodo()
+### 3.5 Implementación de agregarNodo()
 
 ```java
 public void agregarNodo(String id, String nombre) {
@@ -269,9 +247,7 @@ public void agregarNodo(String id, String nombre) {
 
 Permite registrar nuevos nodos dentro del grafo.
 
----
-
-## 3.6 Implementación de agregarArista()
+### 3.6 Implementación de agregarArista()
 
 ```java
 public void agregarArista(String origen, String destino, int peso) {
@@ -286,9 +262,7 @@ public void agregarArista(String origen, String destino, int peso) {
 
 Permite conectar dos nodos del grafo.
 
----
-
-## 3.7 Registro de Nodos
+### 3.7 Registro de Nodos
 
 ```java
 grafo.agregarNodo("uta", "Universidad");
@@ -300,8 +274,6 @@ grafo.agregarNodo("comedor", "Comedor");
 ```
 
 Total: 6 nodos.
-
----
 
 ## 3.8 Registro de Conexiones
 
