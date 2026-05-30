@@ -123,8 +123,6 @@ O(V + E)
 
 Encuentra la ruta con menor cantidad de paradas.
 
----
-
 #### Algoritmo de Dijkstra
 
 El algoritmo de Dijkstra permite encontrar la ruta de menor costo o distancia en un grafo ponderado.
@@ -275,7 +273,7 @@ grafo.agregarNodo("comedor", "Comedor");
 
 Total: 6 nodos.
 
-## 3.8 Registro de Conexiones
+### 3.8 Registro de Conexiones
 
 ```java
 grafo.agregarArista("uta", "fisei", 50);
@@ -287,9 +285,7 @@ grafo.agregarArista("uta", "comedor", 20);
 grafo.agregarArista("comedor", "estadio", 200);
 ```
 
----
-
-## 3.9 Implementación de BFS
+### 3.9 Implementación de BFS
 
 El algoritmo BFS utiliza una cola para recorrer el grafo por niveles.
 
@@ -303,9 +299,7 @@ Resultado:
 Universidad -> Comedor -> Estadio
 ```
 
----
-
-## 3.10 Implementación de Dijkstra
+### 3.10 Implementación de Dijkstra
 
 El algoritmo utiliza:
 
@@ -325,9 +319,7 @@ Resultado:
 Universidad -> FISEI -> Idiomas -> Biblioteca -> Estadio
 ```
 
----
-
-## 3.11 Ejecución del Programa
+### 3.11 Ejecución del Programa
 
 Salida obtenida:
 
@@ -339,11 +331,9 @@ Universidad (uta) -> Comedor (comedor) -> Estadio (estadio)
 Universidad (uta) -> FISEI (fisei) -> Idiomas (idiomas) -> Biblioteca (biblioteca) -> Estadio (estadio)
 ```
 
----
+### 3.12 Análisis de Resultados
 
-## 3.12 Análisis de Resultados
-
-### BFS
+#### BFS
 
 Ruta encontrada:
 
@@ -357,9 +347,7 @@ Distancia:
 
 Busca minimizar el número de conexiones.
 
----
-
-### Dijkstra
+#### Dijkstra
 
 Ruta encontrada:
 
@@ -373,9 +361,7 @@ Distancia:
 
 Busca minimizar la distancia total.
 
----
-
-# 4. COMPARACIÓN DE RESULTADOS
+## 4. COMPARACIÓN DE RESULTADOS
 
 | Criterio                         | BFS                             | Dijkstra                                             |
 | -------------------------------- | ------------------------------- | ---------------------------------------------------- |
@@ -392,9 +378,7 @@ Los resultados demuestran que una ruta con menos paradas no necesariamente corre
 
 BFS minimiza el número de conexiones mientras que Dijkstra minimiza la distancia total recorrida.
 
----
-
-# 5. CONCLUSIONES
+## 5. CONCLUSIONES
 
 * Se implementó correctamente un grafo mediante listas de adyacencia utilizando Java.
 * Se logró representar las conexiones entre diferentes ubicaciones mediante nodos y aristas ponderadas.
@@ -403,16 +387,12 @@ BFS minimiza el número de conexiones mientras que Dijkstra minimiza la distanci
 * Se comprobó que BFS y Dijkstra producen resultados diferentes debido a que optimizan criterios distintos.
 * La práctica fortaleció conocimientos relacionados con grafos, recorridos, estructuras dinámicas y optimización de rutas.
 
----
-
-# 6. RECOMENDACIONES
+## 6. RECOMENDACIONES
 
 * Utilizar pesos reales para representar distancias exactas entre ubicaciones.
 * Incorporar más nodos para representar de forma más completa el Campus Huachi.
 * Implementar interfaces gráficas para visualizar las rutas encontradas.
 * Realizar pruebas con grafos de mayor tamaño para analizar el comportamiento de los algoritmos.
 * Complementar la implementación con otros algoritmos de búsqueda de caminos mínimos.
-
----
 
 [8] Codecademy, “Dijkstra's Shortest Path Algorithm,” [En línea]. Disponible en: https://www.codecademy.com/article/dijkstras-shortest-path-algorithm [Accedido: 30-may-2026].
